@@ -1,0 +1,3 @@
+tput setaf 2 ; tput bold ; printf '%s' "SlowDNS" ; tput setaf 7 ; printf '%s' "- " ; tput setaf 3 ; echo "Para instalar o slow dns digite 'nano slowssh.sh' para slow dns direct ou nano 'slowssl.sh' para slow dns ssl na vivo. Após isso edite o ns na primeira linha: br1.turbo4g.xyz para o seu. após editar de ctrl + x + y + enter faça a instalação Ex: bash slowssl.sh quando terminar ira te entregar uma key, salve em algum lugar. apos isso digite 'screen' e slowssh ou slowssl dependendo de qual você esta fazendo depois ctrl  a + d ele iria salvar e ja esta funcionando." ; echo "
+tput setaf 2 ; tput bold ; printf '%s' "BAD VPN" ; tput setaf 7 ; printf '%s' "- " ; tput setaf 3 ; echo "De apenas screen no terminal e badudp + ctrl a + d." ; echo "
+tput sgr0
