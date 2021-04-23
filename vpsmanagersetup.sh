@@ -79,7 +79,7 @@ if [ -d "/etc/squid3/" ]
 then
 	wget https://raw.githubusercontent.com/VictorVPS/VPS-MANEGER/vpsmanager/squid1.txt -O /tmp/sqd1
 	echo "acl url3 dstdomain -i $ipdovps" > /tmp/sqd2
-	wget https://github.com/VictorVPS/VPS-MANEGER/vpsmanager/squid2.txt -O /tmp/sqd3
+	wget https://raw.github.com/VictorVPS/VPS-MANEGER/vpsmanager/squid2.txt -O /tmp/sqd3
 	cat /tmp/sqd1 /tmp/sqd2 /tmp/sqd3 > /etc/squid3/squid.conf
 	wget https://github.com/VictorVPS/VPS-MANEGER/vpsmanager/payload.txt -O /etc/squid3/payload.txt
 	echo " " >> /etc/squid3/payload.txt
